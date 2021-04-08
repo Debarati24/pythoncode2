@@ -1,0 +1,11 @@
+NumList = []
+
+Num = int(input("Please enter the total number of elements: "))
+for i in range(1, Num + 1):
+    value = int(input("Please enter the Value of %d Element : " %i))
+    NumList.append(value)
+
+print("\nPositive Number(s) in this List are : ")
+for j in range(Num):
+    if(NumList[j] >= 0):
+        print(NumList[j], end = " ")
